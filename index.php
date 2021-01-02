@@ -6,10 +6,10 @@
   // echo mt_rand().'<br>';
   // echo mt_rand().'<br>';
   // echo mt_rand().'<br>';
+ 
+  $result=["大吉","中吉","小吉","吉","末吉","凶","大凶","大吉","中吉","小吉","吉","末吉","凶","大凶"];
   $min=0;
-  $max=6;
-  $result=["大吉","中吉","小吉","吉","末吉","凶","大凶"];
-
+  $max=count($result);
   if(!empty($_POST['btn'])){
   
       if(!empty($_POST['name'])){
